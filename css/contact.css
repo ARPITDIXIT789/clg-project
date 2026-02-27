@@ -1,0 +1,87 @@
+/* Hero Section */
+.contact-hero{
+    background: linear-gradient(rgba(0,33,71,0.85), rgba(0,33,71,0.85));
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.contact-hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.contact-hero p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* Layout */
+.contact-section{
+    max-width:1100px;
+    margin:70px auto;
+    padding:0 20px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    gap:30px;
+}
+
+/* Cards */
+.contact-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s ease;
+    border-top:5px solid #002147;
+}
+
+.contact-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.contact-card h2{
+    color:#002147;
+    margin-bottom:20px;
+}
+
+/* Form */
+.contact-card input,
+.contact-card textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus{
+    border-color:#002147;
+    outline:none;
+    box-shadow:0 0 6px rgba(0,33,71,0.3);
+}
+
+.contact-card textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+/* Button */
+.contact-card button{
+    padding:12px 20px;
+    background:#002147;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-card button:hover{
+    background:#d4af37;
+    color:#002147;
+}

@@ -1,0 +1,106 @@
+.about-hero{
+    background: linear-gradient(rgba(0,33,71,0.8), rgba(0,33,71,0.8)),
+                url('images/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.about-hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.about-hero p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+.about-section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    margin-bottom:35px;
+    transition:0.3s ease;
+    border-left:6px solid #002147;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    color:#002147;
+    margin-bottom:15px;
+    position:relative;
+}
+
+.card h2::after{
+    content:"";
+    width:60px;
+    height:3px;
+    background:#d4af37;
+    display:block;
+    margin-top:8px;
+    border-radius:5px;
+}
+
+.card p{
+    line-height:1.9;
+    color:#444;
+}
+
+.main-footer{
+    background:#001633;
+    color:white;
+    text-align:center;
+    padding:25px 10px;
+    margin-top:50px;
+}
+
+
+/* HEADER */
+.main-header{
+    background:#002147;
+    text-align:center;
+    padding:20px 0;
+}
+
+/* Logo Control */
+.logo-container{
+    width:100%;
+}
+
+.logo{
+    max-width:220px;   /* logo size control */
+    height:auto;
+}
+
+/* Navbar */
+.navbar{
+    background:#001633;
+    padding:12px;
+    margin-top:15px;
+}
+
+.navbar a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color:#d4af37;
+}

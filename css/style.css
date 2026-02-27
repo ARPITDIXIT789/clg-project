@@ -1,0 +1,148 @@
+body{
+  font-family: Arial;
+  margin:0;
+}
+
+header{
+  background:#002147;
+  color:white;
+  padding:15px;
+  text-align:center;
+}
+
+nav{
+  background:#004080;
+  padding:10px;
+  text-align:center;
+}
+
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+
+.hero{
+  text-align:center;
+  padding:80px;
+}
+
+.btn{
+  background:#002147;
+  color:white;
+  padding:12px 20px;
+  text-decoration:none;
+}
+
+.logo{
+  height:70px;
+  width:auto;
+  margin-right:15px;
+}
+.topbar{
+  display:flex;
+  align-items:center;
+  padding:10px 20px;
+}
+
+
+.submit-btn{
+  background:#002147;
+  color:white;
+  padding:15px 25px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* Form Container */
+form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Title */
+h2 {
+  color: white;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+/* Input Fields */
+form input,
+form textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #ddd;
+}
+
+/* Focus Effect */
+form input:focus,
+form textarea:focus {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.03);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+form button:hover {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
